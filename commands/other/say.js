@@ -22,13 +22,8 @@ module.exports = class SayCommand extends Command {
   run(message, { text }) {
     var embed = new MessageEmbed()
       .setTitle(`Just wanted to say...`)
-      .setColor('#888888')
       .setDescription(text)
-      .setTimestamp()
-      .setFooter(
-        `${message.member.displayName}, Made me to say it!`,
-        message.author.displayAvatarURL()
-      );
+      .setFooter(`That is all.`);
     return message.say(embed);
   }
 };
