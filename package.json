@@ -11,7 +11,7 @@
   "author": "Nir Gal",
   "license": "ISC",
   "dependencies": {
-    "@discordjs/opus": "^0.3.3",
+    "@discordjs/opus": "^0.8.0",
     "canvas": "^2.6.1",
     "cheerio": "^1.0.0-rc.3",
     "discord-paginationembed": "^2.1.0",
